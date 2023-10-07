@@ -11,4 +11,5 @@ matplotlib
 seaborn
 catboost
 xgboost
+dataclasses
 # -e .
