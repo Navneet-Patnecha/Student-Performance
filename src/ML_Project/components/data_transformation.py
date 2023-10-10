@@ -14,7 +14,7 @@ from src.ML_Project.exception import CustomException
 from src.ML_Project.logger import logging
 import os
 
-
+## Using this data class to store the path for our processor.pkl file
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path = os.path.join('artifacts' , 'preprocessor.pkl') 
